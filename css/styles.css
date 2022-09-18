@@ -1,4 +1,8 @@
 
+body{
+    text-align: center;
+}
+/* heading setion */
 
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -20,11 +24,19 @@ p{
     color: #8f8f8f;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
+
+
+
+
+/* title Section */
+
+
 #title{
     background-color: #ff4c68;
     color: #fff;
+    text-align: left;
 }
 .navbar{
     padding-bottom: 4.5rem;
@@ -46,13 +58,20 @@ p{
     margin: 5% 3% 5% 0;
 }
 .title-image{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
+
+
+/* Feature section */
+
 
 #features{
     padding: 7% 10%;
-    text-align: center;
+    background-color: white;
+    position: relative;
 }
 
 .icon{
@@ -62,9 +81,13 @@ p{
 .icon:hover{
     color:#ef8172
 }
+
+
+/* Testimoinal section */
+
+
 #testimonials{
     
-    text-align: center;
     background-color: #ff4c68;
     color: #fff;
 }
@@ -73,9 +96,11 @@ p{
     width: 10%;
     margin: 20px;
 }
+.pricing-heading{
+    margin: 20px 20px;
+}
 #press{
     background-color: #ff4c68;
-    text-align: center;
     padding: 3%;
 }
 
@@ -85,4 +110,50 @@ p{
 }
 .carousel-item{
     padding: 7% 10%;
+}
+#pricing{
+    padding: 100px;
+    
+}
+
+.pricing-col{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+
+/* Media Query Section */
+@media (max-width: 1030px) {
+    #title{
+        text-align: center;
+    }
+   .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+
+}
+}
+
+
+/* Cta section */
+
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 10%;
+}
+.cta-heading{
+    line-height: 3.5rem;
+}
+
+
+/* Footer section */
+#footer{
+    padding: 7% 10%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
 }
